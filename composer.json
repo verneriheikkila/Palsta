@@ -10,7 +10,8 @@
         "drupal/pathauto": "^1.4",
         "drupal/adminimal_theme": "^1.5",
         "drupal/webform": "^5.2",
-        "drupal/paragraphs": "^1.8"
+        "drupal/paragraphs": "^1.8",
+        "drupal/nexus": "^1.4"
     },
     "replace": {
         "drupal/core": "^8.7"
