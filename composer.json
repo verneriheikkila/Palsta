@@ -15,7 +15,8 @@
         "vlucas/phpdotenv": "^3.3",
         "drupal/console": "~1.0",
         "drupal/devel": "^2.1",
-        "drupal/search_kint": "^1.0"
+        "drupal/search_kint": "^1.0",
+        "drupal/kint": "^2.1"
     },
     "replace": {
         "drupal/core": "^8.7"

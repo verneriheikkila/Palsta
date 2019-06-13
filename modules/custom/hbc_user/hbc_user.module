@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains hbc_user.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function hbc_user_form_alter(&$form, $form_state, $form_id) {
+  if($form_id == 'user_form'){
+    ksm($form);
+    $form['account']['mail']['#description'] = 'A new description';
+  }
+}
