@@ -4,12 +4,11 @@ features:
   comment_user_verification: true
   favicon: true
 logo:
-  use_default: false
-  path: 'public://Capture.PNG2_.PNG'
+  use_default: true
+  path: ''
 favicon:
-  use_default: false
-  path: 'public://Capture.PNG2__0.PNG'
-  mimetype: image/png
+  use_default: true
+  path: ''
 slideshow_display: 1
 show_breadcrumbs: 1
 slide1_head: 'Sample product'
@@ -23,6 +22,3 @@ slide2_url: node/2
 slide3_url: node/3
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
-slide1_image: {  }
-slide2_image: {  }
-slide3_image: {  }
